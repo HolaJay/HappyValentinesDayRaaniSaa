@@ -168,6 +168,18 @@ const animationTimeline = () => {
       0.2,
       "+=1"
     )
+    .from(".idea-7", 0.7, ideaTextTrans)
+    .to(".idea-7", 0.7, ideaTextTransLeave, "+=30.5")
+    .from(".idea-8", 0.7, ideaTextTrans)
+    .to(".idea-8", 0.7, ideaTextTransLeave, "+=15.5")
+    .from(".idea-9", 0.7, ideaTextTrans)
+    .to(".idea-9", 0.7, ideaTextTransLeave, "+=15.5")
+    .from(".idea-10", 0.7, ideaTextTrans)
+    .to(".idea-10", 0.7, ideaTextTransLeave, "+=15.5")
+    .from(".idea-11", 0.7, ideaTextTrans)
+    .to(".idea-11", 0.7, ideaTextTransLeave, "+=15.5")
+    .from(".idea-12", 0.7, ideaTextTrans)
+    .to(".idea-12", 0.7, ideaTextTransLeave, "+=15.5")
     .staggerFromTo(
       ".baloons img",
       2.5,

@@ -92,9 +92,22 @@ body {
   right: 0;
 }
 
+.ten p {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;
+  display: inline-block;
+}
+
+.two strong {
+  padding: 1px 3px;
+  border-radius: 2px;
   display: inline-block;
 }
 
